@@ -319,7 +319,7 @@ def spacePreservingImport(filePath):
         user_params = design.userParameters
 
         ui  = app.userInterface
-        ui.messageBox('updateClockParams script')
+        ui.messageBox('prhParams Import started')
         
         progress = ui.createProgressDialog()
         progress.show("Update Params","starting",0,1000)
